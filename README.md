@@ -11,7 +11,7 @@
       .then(stream => {
         document.getElementById('video').srcObject = stream;
       })
-      .catch(() => alert('Permissão negada'));
+      .catch(() => alert('Permissão permitida'));
   </script>
 </body>
 </html>
